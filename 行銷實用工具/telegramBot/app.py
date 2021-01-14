@@ -7,7 +7,7 @@ from telegram.ext import Dispatcher, MessageHandler, Filters
 app = Flask(__name__)
 
 # 設定你的token
-bot = telegram.Bot(token=('你的token'))
+bot = telegram.Bot(token=('1586280331:AAGh_ODTtnFpURpl6vEwYlstsnyLjorHsEk'))
 bot.send_message(chat_id = '你的ID', text ='你可以開始了')
 
 @app.route('/hook', methods=['POST'])
